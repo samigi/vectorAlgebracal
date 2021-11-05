@@ -95,7 +95,8 @@
 
 
 <script type="text/javascript">
-  alert("Hello Jii, This is Api here, u r Welcome!")
+  var userName =prompt ("Hello jii just type your name ")
+alert ("This is Api here , you are welcome "+ userName +",You have such a nice name !")
 function collectInfo() {
   var n = parseInt(document.getElementById("i1").value);
   var e = parseInt(document.getElementById("j1").value);
@@ -134,7 +135,7 @@ function addition(a, b, c, m, n, o) {
   document.getElementById("result").style.color = "#F9F9F9"
 
 
-  return document.getElementById("result").innerHTML = (aR);
+  return document.getElementById("result").innerHTML = ( userName +" your answer is " +aR);
 }
 // subtraction
 function subtraction(a, b, c, m, n, o) {
@@ -158,7 +159,7 @@ function subtraction(a, b, c, m, n, o) {
 
 
   document.getElementById("result").style.color = "#49FF00"
-  return document.getElementById("result").innerHTML = (sR);
+  return document.getElementById("result").innerHTML = (userName +" your answer is " +sR);
 }
 // Dotproduct
 function dotProduct(a, b, c, m, n, o) {
@@ -167,7 +168,7 @@ function dotProduct(a, b, c, m, n, o) {
   var dt3 = c * o
   var dpR = dt1 + dt2 + dt3
   document.getElementById("result").style.color = "#F9F9F9"
-  return document.getElementById("result").innerHTML = (dpR);
+  return document.getElementById("result").innerHTML = (userName +" your answer is " +dpR);
 
 }
 // Crossproduct
@@ -191,7 +192,7 @@ function crossProduct(a, b, c, m, n, o) {
 
 
   document.getElementById("result").style.color = "#FBFF00"
-  return document.getElementById("result").innerHTML = (cpR);
+  return document.getElementById("result").innerHTML = (userName +" your answer is " +cpR);
 }
 
 </script>
